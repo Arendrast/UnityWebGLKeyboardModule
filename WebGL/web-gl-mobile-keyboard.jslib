@@ -4,7 +4,7 @@ const mobileKeyboard = {
         shouldCloseKeyboardAfterSubmit: false,
         shouldClearTextAfterSubmit: false,
         mobileKeyboardEventsObserverName: 'MobileKeyboardEventsObserver',
-        getInputDiv: function(shouldSetInputDiv = false, tartText = null, color = null, backgroundColor = null, top = null, bottom = null, left = null, width = null, height = null, transform = null, position = null, border = null, fontSize = null) {
+        getInputDiv: function(shouldSetInputDiv = false, startText = null, color = null, backgroundColor = null, top = null, bottom = null, left = null, width = null, height = null, transform = null, position = null, border = null, fontSize = null) {
             var inputDiv = document.getElementById('unityMobileKeyboardDiv');
             if (!inputDiv) {
                 inputDiv = document.createElement('div');
